@@ -1,0 +1,52 @@
+body {
+    background-color: #f77f00;
+}
+/* Nav Bar */
+ul {
+    margin:0;
+    padding:10px;
+    border-radius: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 5px    
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+/* News + Player of the Day */
+.halfCard {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px;  
+}
+#News {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px
+}
+#pod {
+     width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px
+}
+/*Upcoming Games + POD*/
+.fullCard {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px;
+
+}
