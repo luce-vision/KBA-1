@@ -1,0 +1,73 @@
+/* Global / Body */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body {
+    background-color: #f58426;
+}
+/* NavBar */
+.navbar a:hover {
+    color: #f58426
+}
+ul {
+    background-color: #006bb6;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.9);
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 5px    
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;   
+}
+/* Stats Reference Container */
+.ref {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #006bb6;
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.9);
+}
+label {
+    background-color: #f58426;
+    text-align: left;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+input {
+    background-color: #f58426;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+
+}
+select {
+    background-color: #f58426;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}

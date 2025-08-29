@@ -1,0 +1,67 @@
+/* Body / Global */
+.container1 {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body{
+    background-color: #f58426;
+    display:grid;
+    place-items:center;   
+}
+/* Navbar*/
+.navbar a:hover {
+    color: #f58426
+}
+ul {
+    background-color: #006bb6;
+    margin:0;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.9);
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 5px;    
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+/* Login Container */
+.container2 {
+    background-color: #006bb6;
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.9);
+}
+
+input {
+    background-color: #f58426;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: #f58426;
+    color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px 80px;
+    margin: 20px;
+}
+a {
+    color: orange;
+}
